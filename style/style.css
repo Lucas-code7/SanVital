@@ -866,9 +866,11 @@ footer section{
         padding: 3rem;
         margin: 5px;
         border-radius: 50px;
+        text-align: center;
     }
 
     .container_4 h2{
+        text-align: center;
         margin:0%;
     }
 
