@@ -791,7 +791,27 @@ footer section{
 
     .navbar-toggler{
       display: block;
+      text-align: center;
+      
     }
+
+
+    .div_toggler{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .navbar-nav{
+        align-items: center;
+        padding: 10px;
+    
+    }
+
+
 
     .menu{
         display:flex;
