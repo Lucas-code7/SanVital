@@ -440,7 +440,7 @@ footer section{
 /*Pagina Laboratorio*/
 
 .container_recicable_lab{
-    padding: 50px;
+    padding: 40px;
     background-color: #ffffffd2;
     display: flex;
     flex-direction: column;
