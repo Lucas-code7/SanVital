@@ -210,6 +210,7 @@ header p{
 
 .titulos{
     color: #ffffff;
+    text-align: center;
     font-size: 40px;
     font-weight: bolder;
     margin-bottom: 70px;
@@ -420,7 +421,7 @@ footer section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 100%;
     background-color: #0dcaf02e;
 }
  
@@ -905,5 +906,110 @@ footer section{
 
     .card{
         background-color: #0dcaf061;
+    }
+
+    /*Turnos*/
+
+    .container_recicable{
+        width: 30%;
+        height: 70%;
+    }
+
+    .container_recicable h2{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .boton{
+        margin: 1rem;
+    }
+
+    .formulario_turnos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_recicable_lab{
+        padding: 0%;
+    }
+
+    .h2_lab{
+        padding: 13px;
+        font-size: 1rem;
+    }
+
+
+    .container_recicable_lab p{
+        padding-left: 2px;
+    }
+
+    .container_recicable_lab h3{
+        padding-left: 3px;
+    }
+
+    .container_turnos{
+        width: 90%;
+        
+    }
+
+
+    .formulario {
+        grid-template-areas:
+            "nombre"
+            "nombre_input"
+            "dni"
+            "dni_input"
+            "obra"
+            "obra_input"
+            "provincia"
+            "provincia_input"
+            "localidad"
+            "localidad_input"
+            "tel1"
+            "tel1_input"
+            "tel2"
+            "tel2_input"
+            "correo"
+            "correo_input"
+            "correo2"
+            "correo2_input"
+            "especialidad"
+            "especialidad_input"
+            "medico"
+            "medic_input"
+            "motivo"
+            "motivo_input"
+            "fechaprox"
+            "fechaprox_input";
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+
+    .botones_turnos{
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .nav_turnos a input{
+        margin: 5px;
+    }
+
+    .container_recicable_pags_secu{
+        width: 90%;
+    }
+  
+
+
+
+    .derechos_footer h4{
+        font-size: 0.9rem;
+    }
+
+    .ubicacion{
+        width: 250px;
     }
   }
