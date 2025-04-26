@@ -18,6 +18,10 @@
                 <li class="links"><a href="preguntas.html">Preguntas</a></li>
             </ul>
         </nav>
+        <div class="menu align-items-">
+          <div class="logo"> 
+          <a img class="img_logo" href="../index.html"><img class="align-self-start" src="../imagenes/Clínica San Vital logo.png" alt"logo"></a>
+          </div>
         <nav class="navbar navbar-expand-md navbar-light bg-light solo_mobile" >
             <div class="container-fluid div_toggler">
               <!-- Botón hamburguesa -->
@@ -99,8 +103,25 @@
             <nav class="nav_turnos">
                 <h4>Tiempo estimado de respuesta: 2 DÍAS HÁBILES.</h4>
                 <div class="botones_turnos">
-                <a href="turnos.html"><input class="enviar" type="button" value="Enviar Formulario"></a>
-                <a href="turnos_nuevo.html"><input class="borrar" type="button" value="Borrar Formulario"></a>
+                    <button type="button" class="enviar" data-bs-toggle="modal" data-bs-target="#modalExito">
+                         Enviar
+                        </button>
+                        <div class="modal fade" id="modalExito" tabindex="-1" aria-labelledby="modalExitoLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="modalExitoLabel">¡Éxito!</h5>
+                            </div>
+                            <div class="modal-body">
+                              Se ha enviado correctamente.
+                            </div>
+                            <div class="modal-footer">
+                              <a href="../index.html" class="btn btn-success">Aceptar</a>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                <a href="turnos_nuevo.html"><input class="borrar" type="button" value="Borrar"></a>
                 <a href="tipo_de_consulta.html"><input class="atras" type="button" value="Atras"></a>
                 </div>
             </nav>

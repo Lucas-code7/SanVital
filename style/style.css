@@ -207,7 +207,7 @@ header p{
     border-radius: 30px;
     padding: 30px 0px;
 }
-
+/*titulos generales*/
 .titulos{
     color: #ffffff;
     text-align: center;
@@ -434,10 +434,16 @@ footer section{
     background-color: rgb(91, 214, 245);
     border-radius: 30px;
     padding: 10px;
+    margin: 10px;
 }
 
 
 /*Pagina Laboratorio*/
+
+.titulo_lab{
+    margin: 0%;
+}
+
 
 .container_recicable_lab{
     padding: 40px;
@@ -711,6 +717,7 @@ footer section{
     background-color: rgba(248, 248, 248, 0.658);
     border-radius: 50px;
     box-shadow: 3px 3px black;
+    align-items: center;
 }
 
 .nav_turnos a input{
@@ -720,6 +727,8 @@ footer section{
 }
 
 .enviar{
+    border-radius: 20px;
+    padding: 5px;
     background-color: hsla(84, 100%, 59%, 0.651);
 }
 
@@ -911,8 +920,9 @@ footer section{
     /*Turnos*/
 
     .container_recicable{
-        width: 30%;
+        width: 80%;
         height: 70%;
+        padding: 0;
     }
 
     .container_recicable h2{
@@ -937,16 +947,22 @@ footer section{
 
     .h2_lab{
         padding: 13px;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
 
     .container_recicable_lab p{
         padding-left: 2px;
+        font-size: 1rem;
     }
 
     .container_recicable_lab h3{
+        font-size: 1.1rem;
         padding-left: 3px;
+    }
+
+    .container_recicable_lab h4{
+        font-size: 1rem;
     }
 
     .container_turnos{
@@ -989,9 +1005,8 @@ footer section{
 
 
     .botones_turnos{
-        flex-direction: column;
+        flex-direction: flex;
         padding: 20px;
-
     }
 
     .nav_turnos a input{
