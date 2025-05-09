@@ -4,9 +4,6 @@
     display: none;
 }
 
-.nav_noticias{
-    display: none;
-}
 
 
     .boton{
@@ -49,6 +46,11 @@
         }
     }
 @media screen and (max-width: 767px){
+    
+    .nav_noticias{
+    display: none;
+    }
+
     header{
         .imagen_principal{
             padding: 0px;

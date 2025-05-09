@@ -610,10 +610,6 @@ footer section .derechos_footer h4 {
   display: none;
 }
 
-.nav_noticias {
-  display: none;
-}
-
 .boton {
   margin: 1rem;
 }
@@ -657,6 +653,9 @@ footer section .derechos_footer h4 {
 }
 
 @media screen and (max-width: 767px) {
+  .nav_noticias {
+    display: none;
+  }
   header .imagen_principal {
     padding: 0px;
   }
