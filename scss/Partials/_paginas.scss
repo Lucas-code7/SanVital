@@ -1,0 +1,239 @@
+.main_pags{
+    background-color: #0dcaf02e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    h2{
+         text-shadow: 4px 4px 3px rgba(0,0,0,0.6);
+        text-decoration: underline;
+    }
+    .container_recicable_pags_secu{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #ffffffd2;
+    color: black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin: 20px;
+    font-size: 18px;
+        .article_pags{
+            margin: 10px;
+            h3{                color: rgb(31, 32, 28);
+            text-decoration:underline;
+            text-shadow: 4px 4px 3px rgba(0,0,0,0.6);
+            }
+            a{                    
+                color: black;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+            li{
+               margin-left: 16px;
+            }
+
+        }
+        .article_pags_map{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            div{
+               padding: 40px;
+               .ubicacion{
+                    width: 500px;
+                    height: 350px;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+}
+
+
+/*Medicamentos*/
+.p_medicamentos{
+    font-size: 20px;
+}
+
+/* Turnos seguimiento/nuevo */
+.container_turnos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    background-color:  #ffffffd2;
+    border-radius: 30px;
+    padding: 50px;
+    margin-bottom: 50px;  
+    color: black;
+    box-shadow: 2px 2px black;
+    .formulario{
+        display: grid;
+        grid-template-areas: 
+        "nombre nombre dni dni"
+        "nombre_input nombre_input dni_input dni_input"
+        ". obra obra . "
+        ". obra_input obra_input . "
+        "provincia provincia localidad localidad"
+        "provincia_input provincia_input localidad_input localidad_input"
+        "tel1 tel1 tel2 tel2"
+        "tel1_input tel1_input tel2_input tel2_input"
+        "correo correo correo2 correo2"
+        "correo_input correo_input correo2_input correo2_input"
+        "especialidad especialidad medico medico"
+        "especialidad_input especialidad_input medic_input medic_input"
+        "motivo motivo fechaprox fechaprox"
+        "motivo_input motivo_input fechaprox_input fechaprox_input"
+        ;
+        grid-template-columns:repeat(4, 25%);
+        grid-template-rows: repeat(7, 30px);
+        justify-content: center;
+        align-items: center;
+        gap: 0px 50px;
+            .nombre{
+                grid-area: nombre;
+            }
+            .nombre_input{
+                grid-area: nombre_input;
+            }
+            .dni{
+                grid-area: dni;
+            }
+            .dni_input{
+                grid-area: dni_input;
+            }
+            .obra{
+                grid-area: obra;
+            }
+            .obra_input{
+                grid-area: obra_input;
+            }
+            .provincia{
+                grid-area: provincia;
+            }
+            .provincia_input{
+                grid-area: provincia_input;
+            }
+            .localidad{
+                grid-area: localidad;
+            }
+            .localidad_input{
+                grid-area: localidad_input;
+            }
+            .tel1{
+                grid-area: tel1;
+            }
+            .tel1_input{
+                grid-area: tel1_input;
+            }
+            .tel2{
+                grid-area:tel2;
+            }
+            .tel2_input{
+                grid-area:tel2_input;
+            }
+            .correo{
+                grid-area: correo;
+            }
+            .correo_input{
+                grid-area: correo_input;
+            }
+            .correo2{
+                grid-area: correo2;
+            }
+            .correo2_input{
+                grid-area: correo2_input;
+            }
+            .especialidad{
+                grid-area: especialidad;
+            }
+            .especialidad_input{
+                grid-area: especialidad_input;
+            }
+            .medico{
+                grid-area: medico;
+            }
+            .medico_input{
+                grid-area: medic_input ;
+            }
+            .motivo{
+                grid-area: motivo;
+            }
+            .motivo_input{
+                grid-area: motivo_input ;
+            }
+            .fechaprox{
+                grid-area: fechaprox;
+            }
+            .fechaprox_input{
+                grid-area: fechaprox_input;
+            }
+            input{
+                background-color: rgba(128, 128, 128, 0.658);
+                border: none;
+                border-radius: 30px;
+                padding: 5px;
+                cursor: pointer;
+            }
+            select{
+                background-color: rgba(128, 128, 128, 0.658);
+                border: none;
+                border-radius: 30px;
+                padding: 5px;
+                cursor: pointer;
+            }
+            textarea{
+                background-color: rgba(128, 128, 128, 0.658);
+                border: none;
+                border-radius: 30px;
+                padding: 5px;
+                cursor: pointer;
+                max-width:350px;
+            }
+
+    }
+    .nav_turnos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 50%; 
+        margin-top: 50px;
+        .botones_turnos{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            background-color: rgba(248, 248, 248, 0.658);
+            border-radius: 50px;
+            box-shadow: 3px 3px black;
+            align-items: center;
+            input{
+                padding: 5px;
+                border-radius: 30px;
+                box-shadow: 2px 2px black;
+            }
+            .enviar{
+                border-radius: 20px;
+                padding: 5px;
+                background-color: hsla(84, 100%, 59%, 0.651);
+            }
+            .borrar{
+                background-color: rgba(255, 0, 0, 0.425);
+            }
+
+            .atras{
+                background-color: lightblue;
+            }
+            
+        }
+
+    }
+    
+}

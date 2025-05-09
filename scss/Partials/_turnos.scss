@@ -1,0 +1,32 @@
+.main_1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #0dcaf02e;
+    .container_recicable{
+        padding: 100px;
+        background-color: #ffffffd2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        color: black;
+        h2{
+           color: black;
+        }
+        .formulario_turnos{
+            .boton{
+                color: black;
+                background-color: rgb(91, 214, 245);
+                border-radius: 30px;
+                padding: 10px;
+                margin: 10px;
+            }
+        }
+    }
+
+}
