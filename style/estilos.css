@@ -202,6 +202,7 @@ footer section .derechos_footer h4 {
   padding: 30px 0px;
 }
 .container_2 .nav_noticias {
+  display: block;
   border-radius: 20px;
 }
 .container_2 .nav_noticias .menu_noticias {
@@ -653,7 +654,7 @@ footer section .derechos_footer h4 {
 }
 
 @media screen and (max-width: 767px) {
-  .nav_noticias {
+  .container_2 .nav_noticias {
     display: none;
   }
   header .imagen_principal {

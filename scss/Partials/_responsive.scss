@@ -3,9 +3,6 @@
 .mobile-carousel{
     display: none;
 }
-
-
-
     .boton{
         margin: 1rem;
     }
@@ -47,8 +44,10 @@
     }
 @media screen and (max-width: 767px){
     
-    .nav_noticias{
-    display: none;
+    .container_2{
+        .nav_noticias{
+            display: none;
+        }
     }
 
     header{
