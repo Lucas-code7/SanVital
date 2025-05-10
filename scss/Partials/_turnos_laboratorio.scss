@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height:$p100;
     background-color: #0dcaf02e;
     .titulo_lab{
         margin: 0%;
@@ -16,7 +16,7 @@
         flex-direction: column;
         align-items: first baseline;
         border-radius: 50px;
-        color: black;
+        color: $negro;
         margin: 10px;
         h2_lab{
            padding-bottom: 15px;

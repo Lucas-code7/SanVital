@@ -14,7 +14,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: #ffffffd2;
-    color: black;
+    color: $negro;
     border-radius: 30px;
     padding: 20px;
     margin-bottom: 10px;
@@ -44,7 +44,7 @@
             text-align: center;
             div{
                padding: 40px;
-               .ubicacion{
+                .ubicacion{
                     width: 500px;
                     height: 350px;
                     border-radius: 50px;
@@ -71,8 +71,8 @@
     border-radius: 30px;
     padding: 50px;
     margin-bottom: 50px;  
-    color: black;
-    box-shadow: 2px 2px black;
+    color: $negro;
+    box-shadow: 2px 2px $negro;
     .formulario{
         display: grid;
         grid-template-areas: 
@@ -219,21 +219,25 @@
                 border-radius: 30px;
                 box-shadow: 2px 2px black;
             }
-            .enviar{
+            .boton_turnos_1{
                 border-radius: 20px;
                 padding: 5px;
                 background-color: hsla(84, 100%, 59%, 0.651);
             }
-            .borrar{
+            .boton_turnos_1{
+                @extend .boton_turnos_1;
                 background-color: rgba(255, 0, 0, 0.425);
             }
 
-            .atras{
+            .boton_turnos_1{
+                @extend .boton_turnos_1;
                 background-color: lightblue;
             }
             
         }
 
     }
+
+
     
 }

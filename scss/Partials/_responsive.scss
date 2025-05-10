@@ -43,7 +43,7 @@
         }
     }
 @media screen and (max-width: 767px){
-    
+
     .container_2{
         .nav_noticias{
             display: none;
@@ -51,11 +51,13 @@
     }
 
     header{
-        .imagen_principal{
-            padding: 0px;
-        }
-        .nav_1{
+        .menu{  
+            .imagen_principal{
+             padding: 0px;
+            }
+            .nav_1{
             display: none;
+            }
         }
     }
 
@@ -90,7 +92,7 @@
         .nav_reciclable{
             flex-direction: column;
             width: 50%;
-            background-color: #0dcaf069;
+            background-color:$color-container;
             box-shadow: 2px -3px 117px 65px rgba(0,0,0,0.75);
             -webkit-box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.75);
             -moz-box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.75);
@@ -120,7 +122,7 @@
         }
 
         .card-text{
-            color: black;
+            color: $negro;
             font-size: 1rem;
         }
         }
@@ -242,19 +244,22 @@
               margin: 5px;
             }
 
+        }   
+    }
+    .article_pags_map{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            div{
+               padding: 40px;
+                .ubicacion{
+                    width: 200px;
+                    border-radius: 50px;
+                }
+            }
         }
-        
-    }
-    .container_recicable_pags_secu{
-        width: 90%;
-    }
-    .container_recicable_pags_secu{
-        width: 90%;
-    }
-     .ubicacion{
-        width: 250px;
-    }
-
 }
 
 

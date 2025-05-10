@@ -70,13 +70,14 @@ header .menu .logo .img_logo img {
   -moz-box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.75);
 }
 header .menu .logo .img_logo h3 {
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 25px;
   font-weight: 20px;
   margin-left: 5px;
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.66);
 }
 header .menu .nav_1 {
+  display: flex;
   align-items: center;
   background-color: rgba(13, 202, 240, 0.4196078431);
   border-radius: 50px;
@@ -195,8 +196,9 @@ footer section .derechos_footer h4 {
 .container_2 {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowraw;
   justify-content: center;
+  align-items: center;
+  flex-wrap: nowraw;
   align-items: center;
   border-radius: 30px;
   padding: 30px 0px;
@@ -258,7 +260,7 @@ footer section .derechos_footer h4 {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(0, 0, 0);
+  color: black;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
   box-shadow: 2px -1px 27px 0px rgba(13, 202, 240, 0.75);
   -webkit-box-shadow: 2px -1px 60px 0px rgba(13, 202, 240, 0.75);
@@ -329,7 +331,6 @@ footer section .derechos_footer h4 {
   text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
 }
 
-/*Vista desktop Noticias*/
 .main_pags {
   background-color: rgba(13, 202, 240, 0.1803921569);
   display: flex;
@@ -537,15 +538,15 @@ footer section .derechos_footer h4 {
   border-radius: 30px;
   box-shadow: 2px 2px black;
 }
-.container_turnos .nav_turnos .botones_turnos .enviar {
+.container_turnos .nav_turnos .botones_turnos .boton_turnos_1 {
   border-radius: 20px;
   padding: 5px;
   background-color: hsla(84, 100%, 59%, 0.651);
 }
-.container_turnos .nav_turnos .botones_turnos .borrar {
+.container_turnos .nav_turnos .botones_turnos .boton_turnos_1 {
   background-color: rgba(255, 0, 0, 0.425);
 }
-.container_turnos .nav_turnos .botones_turnos .atras {
+.container_turnos .nav_turnos .botones_turnos .boton_turnos_1 {
   background-color: lightblue;
 }
 
@@ -657,10 +658,10 @@ footer section .derechos_footer h4 {
   .container_2 .nav_noticias {
     display: none;
   }
-  header .imagen_principal {
+  header .menu .imagen_principal {
     padding: 0px;
   }
-  header .nav_1 {
+  header .menu .nav_1 {
     display: none;
   }
   .solo_mobile {
@@ -812,14 +813,19 @@ footer section .derechos_footer h4 {
   .container_turnos .botones_turnos input {
     margin: 5px;
   }
-  .container_recicable_pags_secu {
-    width: 90%;
+  .article_pags_map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
-  .container_recicable_pags_secu {
-    width: 90%;
+  .article_pags_map div {
+    padding: 40px;
   }
-  .ubicacion {
-    width: 250px;
+  .article_pags_map div .ubicacion {
+    width: 200px;
+    border-radius: 50px;
   }
 }
 

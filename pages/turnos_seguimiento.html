@@ -10,7 +10,11 @@
 </head>
 <body>     
     <header>
-        <nav class="nav_1">
+      <div class="menu align-items-">
+          <div class="logo"> 
+          <a img class="img_logo" href="../index.html"><img class="align-self-start" src="../imagenes/Clínica San Vital logo.png" alt"logo"></a>
+          </div>
+          <nav class="nav_1">
             <ul class="nav_links">
                 <li class="links"><a href="../index.html">Inicio</a></li>                
                 <li class="links"><a href="turnos.html">Turnos</a></li>
@@ -18,10 +22,6 @@
                 <li class="links"><a href="preguntas.html">Preguntas</a></li>
             </ul>
         </nav>
-        <div class="menu align-items-">
-          <div class="logo"> 
-          <a img class="img_logo" href="../index.html"><img class="align-self-start" src="../imagenes/Clínica San Vital logo.png" alt"logo"></a>
-          </div>
         <nav class="navbar navbar-expand-md navbar-light bg-light solo_mobile" >
             <div class="container-fluid div_toggler">
               <!-- Botón hamburguesa -->
@@ -36,7 +36,7 @@
                     <a class="nav-link active" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./turnos.html">Turnos</a>
+                    <a class="nav-link" href="">Turnos</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./nosotros.html">Nosotros</a>
@@ -51,6 +51,7 @@
               </div>
             </div>
         </nav> 
+      </div>
     </header>
     <main class="main_pags">
         <h1 class="titulos">Turno Para Seguimiento</h1>
@@ -103,7 +104,7 @@
             <nav class="nav_turnos">
                 <h4>Tiempo estimado de respuesta: 2 DÍAS HÁBILES.</h4>
                 <div class="botones_turnos">
-                    <button type="button" class="enviar" data-bs-toggle="modal" data-bs-target="#modalExito">
+                    <button type="button" class="boton_turnos_1" data-bs-toggle="modal" data-bs-target="#modalExito">
                          Enviar
                         </button>
                         <div class="modal fade" id="modalExito" tabindex="-1" aria-labelledby="modalExitoLabel" aria-hidden="true">
@@ -121,8 +122,8 @@
                             </div>
                         </div>
                         </div>
-                <a href="turnos_nuevo.html"><input class="borrar" type="button" value="Borrar"></a>
-                <a href="tipo_de_consulta.html"><input class="atras" type="button" value="Atras"></a>
+                <a href="turnos_nuevo.html"><input class="boton_turnos_1" type="button" value="Borrar"></a>
+                <a href="tipo_de_consulta.html"><input class="boton_turnos_1" type="button" value="Atras"></a>
                 </div>
             </nav>
         </section>
