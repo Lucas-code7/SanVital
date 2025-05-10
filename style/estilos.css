@@ -78,7 +78,7 @@ header .menu .logo .img_logo h3 {
 }
 header .menu .nav_1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: rgba(13, 202, 240, 0.4196078431);
   border-radius: 50px;
