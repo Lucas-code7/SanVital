@@ -1,0 +1,119 @@
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    header{ 
+    width: $p100;
+    padding:0px;
+        .menu{
+        padding: 30px;
+            .logo{
+            width:50px;
+                .img_logo{
+                width:30px;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: row;
+                    img{
+                    width: 70px;
+                    border-radius: 60%;
+                    box-shadow: 3px 3px 1cap 0px rgba(0,0,0,0.75);
+                    -webkit-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75);
+                    }
+                    h1{
+                    color: $negro;
+                    font-size: 25px;
+                    font-weight: 20px;
+                    margin-left: 5px;
+                    text-shadow: 4px 4px 2px rgba(255, 255, 255, 0.66);
+                    }
+                }
+            }
+            .nav_1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0dcaf06b;
+            border-radius: 50px;
+            width: 70%;
+            box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 8px 5px 0px rgba(0,0,0,0.75);
+                .nav_links{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                padding: 5px;
+                margin: 5px;
+                width: 100%;
+                    .links{
+                    list-style:none;
+                        a{
+                        font-size: 18px;
+                        font-weight: bolder;
+                        color: rgb(0, 0, 0);
+                        padding: 0px;
+                        margin: 20px;
+                        cursor: pointer;
+                        transition: all 1s ease;
+                        }
+                        a:hover{
+                        color: rgb(241, 241, 241);
+                        text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .container_2{
+        margin: 5px;
+        background-color: transparent;
+        .nav_noticias{
+            display: none;
+        }
+        .mobile-carousel{
+        display: block;
+        padding: 30px;
+        .card-title{
+            color: white;
+            font-size: 3rem;
+        }
+        .card-text{
+            color: $negro;
+            font-size: 1.2rem;
+        }
+        }
+
+    }
+    .container_4{
+        background-color: transparent;
+        padding: 3rem;
+        margin: 5px;
+        border-radius: 50px;
+        text-align: center;
+        h2{
+            text-align: center;
+            margin:0%;
+        }
+        nav{
+            display: none;
+            width: 0%;
+            .sedes{
+               display: none;
+               .card{
+                    background-color: #0dcaf061;
+                }
+            }
+        }
+        .mobile-carousel{
+            display: block;
+        }
+    }
+    .main_pags{
+        padding-bottom: 100px;
+
+    }
+
+
+}
