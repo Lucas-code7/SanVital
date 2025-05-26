@@ -94,6 +94,7 @@ header .menu .nav_1 .nav_links {
   align-items: center;
   padding: 5px;
   margin: 5px;
+  width: 100%;
 }
 header .menu .nav_1 .nav_links .links {
   list-style: none;
@@ -120,8 +121,8 @@ header .imagen_principal {
   font-weight: bolder;
   text-align: center;
   align-content: end;
-  color: white;
-  text-shadow: 8px 2px 9px rgba(0, 0, 0, 0.79);
+  color: rgb(0, 0, 0);
+  text-shadow: 8px 2px 9px rgba(255, 255, 255, 0.79);
 }
 
 footer {
@@ -145,7 +146,7 @@ footer section .links_footer a {
   font-size: 15px;
 }
 footer section .derechos_footer {
-  width: 33%;
+  width: 50%;
   text-align: left;
   color: white;
 }
@@ -814,19 +815,13 @@ footer section .derechos_footer h4 {
   .container_turnos .botones_turnos input {
     margin: 5px;
   }
-  .article_pags_map {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  .main_pags .container_recicable_pags_secu .article_pags_map div .ubicacion {
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
   }
-  .article_pags_map div {
-    padding: 40px;
-  }
-  .article_pags_map div .ubicacion {
-    width: 200px;
-    border-radius: 50px;
+  .container_recicable_pags_secu {
+    width: 90%;
   }
 }
 

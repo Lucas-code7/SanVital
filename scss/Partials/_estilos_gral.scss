@@ -88,6 +88,7 @@ header{
             align-items: center;
             padding: 5px;
             margin: 5px;
+            width: 100%;
                 .links{
                 list-style:none;
                     a{
@@ -116,8 +117,8 @@ header{
     font-weight: bolder; 
     text-align: center;
     align-content: end;
-    color: white;
-    text-shadow: 8px 2px 9px rgba(0, 0, 0, 0.79);
+    color: rgb(0, 0, 0);
+    text-shadow: 8px 2px 9px rgba(255, 255, 255, 0.79);
     }
 
 }
@@ -140,7 +141,7 @@ footer{
             }
         }
         .derechos_footer{
-            width: 33%;
+            width: 50%;
             text-align: left;
             color: white;
             h4{

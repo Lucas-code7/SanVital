@@ -245,21 +245,18 @@
             }
 
         }   
+    }.main_pags .container_recicable_pags_secu .article_pags_map div .ubicacion{
+                    width: 250px;
+                    height:300px;
+                    border-radius: 30px;
     }
-    .article_pags_map{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            div{
-               padding: 40px;
-                .ubicacion{
-                    width: 200px;
-                    border-radius: 50px;
-                }
-            }
-        }
+    .container_recicable_pags_secu{
+        width: 90%;
+    }
+
+    
+
+
 }
 
 
